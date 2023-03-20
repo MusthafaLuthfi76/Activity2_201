@@ -24,7 +24,7 @@ int main()
 		cout << "2. Luas Lingkaran" << endl;
 		cout << "3. Luas Segitiga" << endl;
 		cout << "Exit" << endl;
-		cout << "Pilihan (1/2/3/4)"
+		cout << "Pilihan (1/2/3/4) : ";
 		cin >> pilihan;
 
 		switch (pilihan)
@@ -54,5 +54,5 @@ int main()
 			cout << "PILIH YANG BENER DONNNNGGGG!!!!" << endl;
 			break;
 		}
-	}
+	} while (pilihan != 4);
 }
